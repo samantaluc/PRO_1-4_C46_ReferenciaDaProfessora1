@@ -68,19 +68,11 @@ class Game {
 
     // Adicione o sprite de moeda ao jogo
     this.addSprites(powerCoins, 18, powerCoinImage, 0.09);
-    this.addSprites(
-      obstacle1,
-      obstacle1Positions.length,
-      obstacle1Image,
-      0.04,
-      obstacle1Positions
+    this.addSprites( //C46
+      obstacle1,      obstacle1Positions.length,      obstacle1Image,      0.04,      obstacle1Positions
     );
-    this.addSprites(
-      obstacle2,
-      obstacle2Positions.length,
-      obstacle2Image,
-      0.04,
-      obstacle2Positions
+    this.addSprites( //C46
+      obstacle2,     obstacle2Positions.length,      obstacle2Image,      0.04,      obstacle2Positions
     );
   }
 
