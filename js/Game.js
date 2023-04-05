@@ -43,7 +43,7 @@ class Game {
     fuels = new Group();
     powerCoins = new Group();
     obstacle1 = new Group(); 
-    obstacle2 = new Group(); 
+    obstacle2 = new Group();  //C46
     var obstacle1Positions = [
       { x: width / 2 - 150, y: height - 1300, image: obstacle1Image },
       { x: width / 2 + 250, y: height - 1800, image: obstacle1Image },
@@ -53,7 +53,7 @@ class Game {
       { x: width / 2, y: height - 5300, image: obstacle1Image },
     ];
 
-    var obstacle2Positions = [
+    var obstacle2Positions = [ //C46
       { x: width / 2 + 250, y: height - 800, image: obstacle2Image },
       { x: width / 2 - 180, y: height - 2300, image: obstacle2Image },
       { x: width / 2, y: height - 2800, image: obstacle2Image },
